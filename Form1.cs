@@ -36,10 +36,8 @@ namespace ARP
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            //btnReceipt
-            rtfReceipt.Clear();
-
-            // rtfReceipt.AppendText(Environment.NewLine);
+            
+            
             rtfReceipt.AppendText("----------------------------------------------------------------" + Environment.NewLine);
             rtfReceipt.AppendText("\t" + "       فست فود آبتین" + Environment.NewLine);
             rtfReceipt.AppendText("----------------------------------------------------------------" + Environment.NewLine);
